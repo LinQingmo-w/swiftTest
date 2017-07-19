@@ -10,13 +10,35 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,UITabBarDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var tabs = ["base" , "UI"]
+        
+        
+        let tabbarController = UITabBarController()
+        self.window?.rootViewController = tabbarController
+        
+        let homeView = ViewController()
+        homeView.navigationItem.title = "基础类型"//设置导航栏名字
+        let homeViewController = UINavigationController(rootViewController: homeView)
+        homeViewController.tabBarItem.title = tabs[0]
+//        homeViewController.title = "首页"//同上一句
+        tabbarController.addChildViewController(homeViewController)
+        
+        let showView = ShowoutViewController()
+        showView.navigationItem.title = "UI"
+        let showViewController = UINavigationController(rootViewController: showView)
+        showViewController.tabBarItem.title = tabs[1]
+        tabbarController.addChildViewController(showViewController)
+    
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

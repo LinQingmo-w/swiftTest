@@ -28,6 +28,11 @@ class swiftTestUITests: XCTestCase {
         super.tearDown()
     }
     
+    func testBaseBase()  {
+        XCUIApplication().tables.staticTexts["基础部分"].tap()
+        
+    }
+    
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

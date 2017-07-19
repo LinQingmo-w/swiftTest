@@ -15,6 +15,9 @@
 		1C53AD6C1F185C350066EC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C53AD6A1F185C350066EC03 /* LaunchScreen.storyboard */; };
 		1C53AD771F185C350066EC03 /* swiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53AD761F185C350066EC03 /* swiftTestTests.swift */; };
 		1C53AD821F185C350066EC03 /* swiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53AD811F185C350066EC03 /* swiftTestUITests.swift */; };
+		1C53AD901F1866AA0066EC03 /* BaseLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53AD8F1F1866AA0066EC03 /* BaseLanguageViewController.swift */; };
+		1C53AD931F186C720066EC03 /* ShowoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53AD911F186C720066EC03 /* ShowoutViewController.swift */; };
+		1C53AD941F186C720066EC03 /* ShowoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C53AD921F186C720066EC03 /* ShowoutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1C53AD7D1F185C350066EC03 /* swiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C53AD811F185C350066EC03 /* swiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTestUITests.swift; sourceTree = "<group>"; };
 		1C53AD831F185C350066EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C53AD8F1F1866AA0066EC03 /* BaseLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLanguageViewController.swift; sourceTree = "<group>"; };
+		1C53AD911F186C720066EC03 /* ShowoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowoutViewController.swift; sourceTree = "<group>"; };
+		1C53AD921F186C720066EC03 /* ShowoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowoutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 			children = (
 				1C53AD5E1F185C350066EC03 /* AppDelegate.swift */,
 				1C53AD601F185C350066EC03 /* ViewController.swift */,
+				1C53AD911F186C720066EC03 /* ShowoutViewController.swift */,
+				1C53AD921F186C720066EC03 /* ShowoutViewController.xib */,
+				1C53AD951F1870050066EC03 /* Base */,
+				1C53AD971F1870210066EC03 /* UI */,
 				1C53AD621F185C350066EC03 /* Main.storyboard */,
 				1C53AD681F185C350066EC03 /* Assets.xcassets */,
 				1C53AD6A1F185C350066EC03 /* LaunchScreen.storyboard */,
@@ -126,6 +136,21 @@
 				1C53AD831F185C350066EC03 /* Info.plist */,
 			);
 			path = swiftTestUITests;
+			sourceTree = "<group>";
+		};
+		1C53AD951F1870050066EC03 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1C53AD8F1F1866AA0066EC03 /* BaseLanguageViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1C53AD971F1870210066EC03 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +262,7 @@
 			files = (
 				1C53AD6C1F185C350066EC03 /* LaunchScreen.storyboard in Resources */,
 				1C53AD691F185C350066EC03 /* Assets.xcassets in Resources */,
+				1C53AD941F186C720066EC03 /* ShowoutViewController.xib in Resources */,
 				1C53AD641F185C350066EC03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C53AD611F185C350066EC03 /* ViewController.swift in Sources */,
+				1C53AD931F186C720066EC03 /* ShowoutViewController.swift in Sources */,
 				1C53AD671F185C350066EC03 /* swiftTest.xcdatamodeld in Sources */,
+				1C53AD901F1866AA0066EC03 /* BaseLanguageViewController.swift in Sources */,
 				1C53AD5F1F185C350066EC03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
