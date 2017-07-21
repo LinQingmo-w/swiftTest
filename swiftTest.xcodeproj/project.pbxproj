@@ -18,6 +18,10 @@
 		1C53AD901F1866AA0066EC03 /* BaseLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53AD8F1F1866AA0066EC03 /* BaseLanguageViewController.swift */; };
 		1C53AD931F186C720066EC03 /* ShowoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53AD911F186C720066EC03 /* ShowoutViewController.swift */; };
 		1C53AD941F186C720066EC03 /* ShowoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C53AD921F186C720066EC03 /* ShowoutViewController.xib */; };
+		1C8643881F20793E00057478 /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8643871F20793E00057478 /* FunctionViewController.swift */; };
+		1C86438A1F209DF400057478 /* BlockTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8643891F209DF400057478 /* BlockTestViewController.swift */; };
+		1C86438C1F20A1CE00057478 /* Block2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86438B1F20A1CE00057478 /* Block2ViewController.swift */; };
+		1CC8C7E41F21EB340053FD3E /* EnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8C7E31F21EB340053FD3E /* EnumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		1C53AD8F1F1866AA0066EC03 /* BaseLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLanguageViewController.swift; sourceTree = "<group>"; };
 		1C53AD911F186C720066EC03 /* ShowoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowoutViewController.swift; sourceTree = "<group>"; };
 		1C53AD921F186C720066EC03 /* ShowoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowoutViewController.xib; sourceTree = "<group>"; };
+		1C8643871F20793E00057478 /* FunctionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
+		1C8643891F209DF400057478 /* BlockTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTestViewController.swift; sourceTree = "<group>"; };
+		1C86438B1F20A1CE00057478 /* Block2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block2ViewController.swift; sourceTree = "<group>"; };
+		1CC8C7E31F21EB340053FD3E /* EnumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				1C53AD8F1F1866AA0066EC03 /* BaseLanguageViewController.swift */,
+				1C8643871F20793E00057478 /* FunctionViewController.swift */,
+				1C8643891F209DF400057478 /* BlockTestViewController.swift */,
+				1C86438B1F20A1CE00057478 /* Block2ViewController.swift */,
+				1CC8C7E31F21EB340053FD3E /* EnumViewController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -288,10 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8643881F20793E00057478 /* FunctionViewController.swift in Sources */,
+				1C86438C1F20A1CE00057478 /* Block2ViewController.swift in Sources */,
 				1C53AD611F185C350066EC03 /* ViewController.swift in Sources */,
+				1C86438A1F209DF400057478 /* BlockTestViewController.swift in Sources */,
 				1C53AD931F186C720066EC03 /* ShowoutViewController.swift in Sources */,
 				1C53AD671F185C350066EC03 /* swiftTest.xcdatamodeld in Sources */,
 				1C53AD901F1866AA0066EC03 /* BaseLanguageViewController.swift in Sources */,
+				1CC8C7E41F21EB340053FD3E /* EnumViewController.swift in Sources */,
 				1C53AD5F1F185C350066EC03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = swiftTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.linqingmo.swiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = swiftTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.linqingmo.swiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,6 +557,7 @@
 				1C53AD881F185C350066EC03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C53AD891F185C350066EC03 /* Build configuration list for PBXNativeTarget "swiftTestTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +566,7 @@
 				1C53AD8B1F185C350066EC03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C53AD8C1F185C350066EC03 /* Build configuration list for PBXNativeTarget "swiftTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +575,7 @@
 				1C53AD8E1F185C350066EC03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

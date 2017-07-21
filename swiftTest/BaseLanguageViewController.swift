@@ -664,6 +664,15 @@ class BaseLanguageViewController: UIViewController {
         }
         print(description)
         // 输出 "The number 5 is a prime number, and also an integer."
+        
+        //带标签的语句
+        
+        
+        if #available(iOS 10, macOS 10.12, *) {
+            // 在 iOS 使用 iOS 10 的 API, 在 macOS 使用 macOS 10.12 的 API
+        } else {
+            // 使用先前版本的 iOS 和 macOS 的 API
+        }
     }
     
     override func didReceiveMemoryWarning() {

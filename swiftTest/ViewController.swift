@@ -18,7 +18,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.dataArr = ["基础部分","字符串个字符","集合类型","控制流"," 函数","闭包","枚举","类和结构体","属性","方法","下标","继承","构造过程","析构过程","自动引用计数","可选链","错误处理","嵌套类型","扩展","协议","泛型","访问控制","高级运算符"]
+        self.dataArr = ["基础部分"," 函数","闭包","枚举","类和结构体","属性","方法","下标","继承","构造过程","析构过程","自动引用计数","可选链","错误处理","嵌套类型","扩展","协议","泛型","访问控制","高级运算符"]
         self.tableView = UITableView.init(frame: self.view.frame, style: .plain)
         self.tableView?.delegate = self
         self.tableView?.dataSource = self
@@ -41,7 +41,24 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.navigationController?.pushViewController(BaseLanguageViewController(nibName: nil, bundle: nil), animated: true)
+        switch indexPath.row {
+        case 0:
+              self.navigationController?.pushViewController(BaseLanguageViewController(nibName: nil, bundle: nil), animated: true)
+        case 1:
+            self.navigationController?.pushViewController(FunctionViewController(), animated: true)
+            
+        case 2:
+            self.navigationController?.pushViewController(BlockTestViewController(), animated: true)
+            
+        case 3:
+            self.navigationController?.pushViewController(EnumViewController(), animated: true)
+            
+        default:
+            break
+            
+        }
+       
+       
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
