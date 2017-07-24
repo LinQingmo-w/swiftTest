@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C37DF1B1F259050002404D6 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37DF1A1F259050002404D6 /* ClassViewController.swift */; };
+		1C37DF1D1F25D32F002404D6 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37DF1C1F25D32F002404D6 /* PropertyViewController.swift */; };
 		1C53AD5F1F185C350066EC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53AD5E1F185C350066EC03 /* AppDelegate.swift */; };
 		1C53AD611F185C350066EC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53AD601F185C350066EC03 /* ViewController.swift */; };
 		1C53AD641F185C350066EC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C53AD621F185C350066EC03 /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C37DF1A1F259050002404D6 /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		1C37DF1C1F25D32F002404D6 /* PropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		1C53AD5B1F185C350066EC03 /* swiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C53AD5E1F185C350066EC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C53AD601F185C350066EC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +158,8 @@
 				1C8643891F209DF400057478 /* BlockTestViewController.swift */,
 				1C86438B1F20A1CE00057478 /* Block2ViewController.swift */,
 				1CC8C7E31F21EB340053FD3E /* EnumViewController.swift */,
+				1C37DF1A1F259050002404D6 /* ClassViewController.swift */,
+				1C37DF1C1F25D32F002404D6 /* PropertyViewController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -301,12 +307,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C8643881F20793E00057478 /* FunctionViewController.swift in Sources */,
+				1C37DF1B1F259050002404D6 /* ClassViewController.swift in Sources */,
 				1C86438C1F20A1CE00057478 /* Block2ViewController.swift in Sources */,
 				1C53AD611F185C350066EC03 /* ViewController.swift in Sources */,
 				1C86438A1F209DF400057478 /* BlockTestViewController.swift in Sources */,
 				1C53AD931F186C720066EC03 /* ShowoutViewController.swift in Sources */,
 				1C53AD671F185C350066EC03 /* swiftTest.xcdatamodeld in Sources */,
 				1C53AD901F1866AA0066EC03 /* BaseLanguageViewController.swift in Sources */,
+				1C37DF1D1F25D32F002404D6 /* PropertyViewController.swift in Sources */,
 				1CC8C7E41F21EB340053FD3E /* EnumViewController.swift in Sources */,
 				1C53AD5F1F185C350066EC03 /* AppDelegate.swift in Sources */,
 			);

@@ -53,6 +53,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         case 3:
             self.navigationController?.pushViewController(EnumViewController(), animated: true)
             
+        case 4:
+            self.navigationController?.pushViewController(ClassViewController(), animated: true)
+            
         default:
             break
             
