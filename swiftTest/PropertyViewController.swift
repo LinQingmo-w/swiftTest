@@ -89,6 +89,7 @@ class PropertyViewController: UIViewController {
         
 //       Swift 中的属性没有对应的实例变量，属性的后端存储也无法直接访问 如果一个被标记为 lazy 的属性在没有初始化时就同时被多个线程访问，则无法保证该属性只会被初始化一次。
         
+        //测试的
         
     }
 
